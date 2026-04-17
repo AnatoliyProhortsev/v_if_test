@@ -48,7 +48,7 @@ static int vnet_ping_proc_open(struct inode *inode, struct file *file)
     return single_open(file, vnet_ping_proc_show, NULL);
 }
 
-/// write handler
+/// proc write handler
 static ssize_t vnet_ping_proc_write(struct file *file,
                                 const char __user *buffer,
                                 size_t count,
