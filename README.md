@@ -30,6 +30,7 @@ vnet_ping.ko
 ```bash
 sudo insmod vnet_ping.ko
 ```
+Note: on systems with Secure Boot enabled, loading unsigned kernel modules may fail
 ### Check that interface exists
 ```bash
 ip link show vnet_ping0
